@@ -1,0 +1,16 @@
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Office temporary files
+~$*
+.~lock.*
+
+# IDE files
+.vscode/
+.idea/
+
+# Local logs
+*.log

@@ -32,23 +32,23 @@ This project is organized into modular directories containing professional deliv
 
 ```bash
 📂 HERBAL WEBSITE BUSINESS ANALYSIS
-├── 📁 1_BRD                                         # Business Requirements Document (BRD)
+├── 📁 01_BRD                                         # Business Requirements Document (BRD)
 │   └── 📄 Herbal_BRD.pdf
-├── 📁 2_Product Vision & Strategy Document         # Product Vision & Strategy (Goals Alignment Matrix)
+├── 📁 02_Product Vision & Strategy Document         # Product Vision & Strategy (Goals Alignment Matrix)
 │   └── 📄 Herbal_BRD_prduct_vsion.pdf
-├── 📁 3_Market Research & Competitor Analysis Report # Competitor Comparison, SWOT & Market Analysis
+├── 📁 03_Market Research & Competitor Analysis Report # Competitor Comparison, SWOT & Market Analysis
 │   └── 📄 Herbal_MARKET_RESEARCH___COMPETITOR_ANALYSIS_REPORT.pdf
-├── 📁 4_Customer Journey Mapping Report             # Customer Lifecycle, Personas & Touchpoint Analysis
+├── 📁 04_Customer Journey Mapping Report             # Customer Lifecycle, Personas & Touchpoint Analysis
 │   └── 📄 Herbal_Customer_Journey_Mapping_Report.pdf
-├── 📁 5_Product Requirements Document (PRD)         # Feature Acceptance & Product Requirements
+├── 📁 05_Product Requirements Document (PRD)         # Feature Acceptance & Product Requirements
 │   └── 📄 herbal_prd.pdf
-├── 📁 6_Feature Prioritization & Product Roadmap Report # Phase-wise Roadmap & Value vs. Complexity Prioritization
+├── 📁 06_Feature Prioritization & Product Roadmap Report # Phase-wise Roadmap & Value vs. Complexity Prioritization
 │   └── 📄 Herbal_BRD_Feature_Prioritization___Product_Roadmap_Report_.pdf
-├── 📁 7_Business Process Improvement Analysis Report # BPR, AS-IS vs. TO-BE Swimlane Models, Process Optimizations
+├── 📁 07_Business Process Improvement Analysis Report # BPR, AS-IS vs. TO-BE Swimlane Models, Process Optimizations
 │   └── 📄 Herbal_Business_Process_Improvement_Analysis.pdf
-├── 📁 8_Gap Analysis Report                         # Current (AS-IS) vs. Desired Future (TO-BE) State Assessment
+├── 📁 08_Gap Analysis Report                         # Current (AS-IS) vs. Desired Future (TO-BE) State Assessment
 │   └── 📄 Herbal_Gap_Analysis_Report.pdf
-├── 📁 9_User Acceptance Testing (UAT) Report        # UAT Test Scenarios, Defect Logs & Business Sign-Off
+├── 📁 09_User Acceptance Testing (UAT) Report        # UAT Test Scenarios, Defect Logs & Business Sign-Off
 │   └── 📄 Herbal_User_Acceptance_Testing__UAT__Report.pdf
 └── 📁 10_Power Bi                                   # Power BI Dashboard Reports & Datasets
     ├── 📊 Obyster_Herbals_Dashboard.pbix
@@ -68,17 +68,17 @@ This project is organized into modular directories containing professional deliv
 
 ## 🍵 Deliverables & Business Analysis Methodologies Applied
 
-### 📁 1. `1_BRD` (Business Requirements Document)
+### 📁 1. `01_BRD` (Business Requirements Document)
 *   **Stakeholder Identification:** Conducted exhaustive elicitation mapping the roles, interests, and pain points of three core user groups: **Dr. Anshumaan (Business Owner & Physician)**, **Clinic Administrative Staff**, and **Patients (End Users)**.
 *   **Discovery Techniques:** Utilized structured surveys, stakeholder interviews, and current-state observation to translate operational bottlenecks (manual inquiries, duplicate reviews, image upload delays) into technical specifications.
 *   **Scope Modeling:** Defined explicit **In-Scope** (Public catalog, prefilled WhatsApp order messages, user registration, star ratings/reviews, secure administrator dashboard, cloud media pipeline) and **Out-of-Scope** boundaries (Integrated credit card checkout, live inventory tracking, courier shipping APIs, online consultation scheduling) to control project constraints.
 
-### 📁 2. `2_Product Vision & Strategy Document`
+### 📁 2. `02_Product Vision & Strategy Document`
 *   **Product Vision:** Crafted a unified vision statement: *"To make authentic Ayurvedic wellness accessible through a trusted digital experience that combines traditional clinical expertise with convenient product discovery, customer engagement, and personalized support."*
 *   **Goals Alignment Matrix:** Constructed a framework linking short-term (1–6 months), mid-term (6–12 months), and long-term (12+ months) goals directly to strategic business metrics (reducing inquiry call volume, increasing out-of-town catalog traffic).
 *   **Unique Value Proposition:** Positioned Oyster Herbals as a clinically-backed, physician-formulated alternative to mass-market commercial brands.
 
-### 📁 3. `3_Market Research & Competitor Analysis Report`
+### 📁 3. `03_Market Research & Competitor Analysis Report`
 *   **Ayurvedic Industry Context:** Analyzed macro trends in the Indian wellness market, highlighting growing consumer preferences for organic/natural formulations, clinic-backed authenticity, and Tier-2/Tier-3 mobile commerce adoption.
 *   **Competitor Comparison Matrix:** Profiled large national Ayurvedic brands (Patanjali, Dabur, Forest Essentials) vs. local herbal pharmacies, identifying a market gap for **clinical trust combined with digital browsing convenience**.
 *   **SWOT Analysis:** Documented Oyster Herbals' strategic position:
@@ -87,14 +87,14 @@ This project is organized into modular directories containing professional deliv
     *   *Opportunities:* Regional expansion via conversational commerce.
     *   *Threats:* Intense competition from large-scale online pharmacies.
 
-### 📁 4. `4_Customer Journey Mapping Report`
+### 📁 4. `04_Customer Journey Mapping Report`
 *   **Customer Persona Profiling:** Analyzed three core customer segments:
     *   **Ramesh Sharma (Chronic Care Refiller):** Elderly patient who needs a simple, friction-free way to re-order regular remedies without traveling to the clinic.
     *   **Priya Patel (Health Conscious Seeker):** Family-focused buyer looking for authentic, ingredient-transparent, physician-backed health formulations.
     *   **Arjun Mehta (Modern Wellness Enthusiast):** Tech-savvy professional looking for natural stress-relief remedies, relying heavily on reviews and mobile convenience.
 *   **Lifecycle Stage Mapping:** Tracked customer actions, emotional states, touchpoints, and frustrations across **Awareness**, **Consideration**, **Purchase**, and **Post-Purchase** stages, driving the implementation of prefilled order templates.
 
-### 📁 5. `5_Product Requirements Document (PRD)`
+### 📁 5. `05_Product Requirements Document (PRD)`
 *   **User Roles & Access Control:** Modeled role-based access for Customers (browse, search, review), Clinic Admin Staff (manage catalog, update pricing, upload images), and Dr. Anshumaan (full approval and dashboard oversight).
 *   **Functional & Non-Functional Requirements:** Cataloged 12 core functional requirements and 5 non-functional requirements (security, responsiveness, data validation).
 *   **Bidirectional Traceability:** Configured the Requirements Traceability Matrix (RTM) to ensure zero gaps between business needs and development scope.
@@ -112,21 +112,21 @@ This project is organized into modular directories containing professional deliv
 
 </details>
 
-### 📁 6. `6_Feature Prioritization & Product Roadmap Report`
+### 📁 6. `06_Feature Prioritization & Product Roadmap Report`
 *   **Prioritization Framework:** Utilized a **Value vs. Complexity Matrix** to identify high-value, low-complexity capabilities to deliver early return on investment.
 *   **Phased Product Roadmap:** Defined a structured, 6-month delivery plan:
     *   **Phase 1 — MVP Release (Months 1–2):** Public Product Catalog, WhatsApp Order Integration, and secure Administrative Catalog management.
     *   **Phase 2 — Customer Engagement (Months 3–4):** User accounts, Star ratings/reviews ecosystem, and Product Search.
     *   **Phase 3 — Growth & Optimization (Months 5–6):** Analytics dashboard integration, conversational templates.
 
-### 📁 7. `7_Business Process Improvement Analysis Report`
+### 📁 7. `07_Business Process Improvement Analysis Report`
 *   **Legacy Process Bottlenecks:** Documented inefficiencies in the traditional model, such as clinic staff manually quoting stock availability and manually recording shipping addresses on paper.
 *   **AS-IS vs. TO-BE Swimlane Models:** Designed BPMN 2.0 swimlane models representing optimized workflows:
     *   *Product Inquiry:* Transitioned from manual phone calls (AS-IS) to self-service catalog browsing (TO-BE).
     *   *Product Ordering:* Replacing manual transcription (AS-IS) with prefilled, structured WhatsApp order templates (TO-BE).
     *   *Catalog Updates:* Replaced verbal pricing updates (AS-IS) with centralized database changes through the admin portal (TO-BE).
 
-### 📁 8. `8_Gap Analysis Report`
+### 📁 8. `08_Gap Analysis Report`
 *   **Gap Assessment:** Identified core operational gaps between current physical operations and the desired digital-first commerce model.
 *   **Business Gap Analysis Matrix:** Classified gaps into:
     *   *Customer Experience Gap:* Lack of 24/7 product access and transparent pricing.
@@ -134,7 +134,7 @@ This project is organized into modular directories containing professional deliv
     *   *Information Management Gap:* Absence of a single source of truth for product data and pricing.
 *   **Resolution Strategy:** Outlined transitional milestones, resource allocations, and risks associated with maintaining the legacy AS-IS state.
 
-### 📁 9. `9_User Acceptance Testing (UAT) Report`
+### 📁 9. `09_User Acceptance Testing (UAT) Report`
 *   **Scenario-Based Testing:** Executed 8 business-focused scenarios (UAT-SC-001 to UAT-SC-008) validating core catalog operations, WhatsApp message formatting, registration, review loops, and administrative CRUD functions.
 *   **Execution Metrics:** Ran a comprehensive test suite of 20 test cases, achieving a **90% initial pass rate** (18 Pass, 1 Fail, 1 Blocked) and coordinating with the engineering team to achieve a **100% defect closure rate** before sign-off.
 *   **UAT Defect Ledger:**
